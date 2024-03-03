@@ -22,7 +22,7 @@ jobs:
       run: npm install
 
     - name: Run dependencies
-      run: npm run dev
+      run: npm run build
 
     - name: Run vitest
       run: npm run test
